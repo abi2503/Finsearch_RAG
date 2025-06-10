@@ -1,0 +1,20 @@
+[project]
+name = "finsearch_ai"
+version = "0.1.0"
+description = "Hybrid RAG + Financial Sentiment Analysis System"
+authors = [{ name = "Abhishek Suresh" }]
+dependencies = [
+    "pandas",
+    "numpy",
+    "yfinance",
+    "scikit-learn",
+    "transformers",
+    "datasets",
+    "sentence-transformers",
+    "rank-bm25",
+    "faiss-cpu",
+    "tqdm",
+    "python-dotenv",
+    "cassandra-driver",
+    "streamlit"
+]
